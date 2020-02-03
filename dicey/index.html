@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicey!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="jumbotron jumbotron-fluid bg-dark">
+    <div class="container text-light">
+      <h1 class="display-6 mb-3 jbtrn-title"><strong>Welcome to Dicey!</strong></h1>
+      <p class="jbtrn-lead">Welcome to the state of the art, next gen, bleeding edge conflict resolution platform, Dicey!. The one stop shop to all your confrontational resolutional needs. With Dicey! we promise you will NEVER have an argument again!
+      </p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+
+      <!-- col-6 col-sm-3
+      means: Default size = col-6, after SM become col-3
+      It doesn't mean 'at small do this' it means AFTER SM do THIS -->
+
+      <div class="col-6 col-md-3 order-6 order-md-1 mt-4 mt-md-0">
+        <div class="card text-center">
+          <h5 class="card-header text-light bg-dark">Player One</h5>
+          <div class="card-body">
+            <ol class="scoreboard" id="LSB"></ol>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 order-4 order-md-2">
+        <div class="card">
+          <h5 class="card-header text-light text-center bg-dark">Dicey!</h5>
+          <div class="card-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <img class="image" id="diceOne" src="graphics/dice-0.svg" alt="">
+                </div>
+                <div class="col">
+                  <img class="image" id="diceTwo" src="graphics/dice-0.svg" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button class="btn orange btn-lg mt-3 text-light" id="rollButton">
+                    <h4>Roll the dice!</h4>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 order-6 order-md-9 mt-4 mt-md-0">
+        <div class="card text-center">
+          <h5 class="card-header text-light bg-dark">Player One</h5>
+          <div class="card-body">
+            <ol class="scoreboard" id="RSB"></ol>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

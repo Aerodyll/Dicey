@@ -1,0 +1,68 @@
+/* Responsive bit */
+@media only screen and (min-width: 768px) {
+
+  /* For mobile phones: */
+  .jbtrn-title {
+    font-size: 3rem;
+  }
+
+  .jbtrn-lead {
+    font-size: 1rem;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jbtrn-lead {
+  font-size: 1.2rem;
+}
+
+.orange {
+  background-color: #ff5819;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  min-height: 100%;
+}
+
+.listItem {
+  position: relative;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  clear: both;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.scoreDice {
+  display: inline-block;
+  height: 100%;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.victorTag {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+#rollButton {
+  width: 100%;
+  height: 70px;
+  padding: 0 20% 0 20%;
+}
